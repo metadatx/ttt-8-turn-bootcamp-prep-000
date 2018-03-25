@@ -6,6 +6,7 @@ def turn(board)
     move(board, index)
   else
     turn(board)
+  end
 end
 
 def valid_move?(board, index)
